@@ -865,7 +865,7 @@ width: 100px;
             height: 1000px;
         }
         .section5{
-            width: 1000px;
+            width: 100%;
             height: auto;
             background-color: rgb(12, 9, 5);
             /* display: inline-block; */
@@ -893,7 +893,7 @@ width: 100px;
             height: 50px;
         }
         .sameer{
-            width: 1000px;
+            width: 100%;
         }
         .promotion__title{
             width: 250px;
