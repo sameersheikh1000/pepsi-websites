@@ -173,7 +173,7 @@ label.logo{
     }
     nav{
         width: 100%;
-        background-color: aqua;
+        background-color: rgb(34, 63, 63);
     }
     nav ul{
         width: 100%;
@@ -811,7 +811,7 @@ width: 100px;
             margin-left: 120px;
         }
         video{
-            width: 100%x;
+            width: 100%;
 
         }
         .nitro{
@@ -862,7 +862,7 @@ width: 100px;
         .section5 animate{
             width: 100%;
             /* background-color: aqua; */
-            height: 1000px;
+            height: 600px;
         }
         .section5{
             width: 100%;
@@ -905,7 +905,7 @@ width: 100px;
        .footer{
         width: 100%;
         display: inline-block;
-        height: 700px;
+        height: 500px;
         background-color: #111;
         text-align: center;
        }
