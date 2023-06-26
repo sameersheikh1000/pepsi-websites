@@ -1,0 +1,176 @@
+
+
+
+nav{
+    /* background-color: rgba(14, 75, 206, 0.315); */
+    /* opacity: 0.5; */
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    position: relative;
+    /* margin-top: 40px; */
+   
+    
+
+    width: 100%;
+height: 80px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+ label.logo{
+    font-size: 25px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    margin: 0px 60px;
+    line-height: 80px;
+    color: white;
+}
+nav ul {
+    float: right;
+    list-style-type: none;
+    
+}
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin-right: 40px;
+   
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    display: block;
+}
+ /* .active:hover{ 
+     background-color: brown; 
+    width: 50px;
+    height: 50px;
+   padding-top: 10px;
+}  */
+/* .active:hover{
+    color: blue;
+} */
+nav ul li a:hover{
+    /* cursor: pointer;
+    color: rgb(27, 99, 6); */
+    cursor: col-resize;
+    color: rgb(36, 58, 187);
+    /* background : aqua;
+    /* cursor: pointer;
+    height: 20px; */
+    /* height: 20px; */
+    /* border-radius: 25%;
+    margin-top: 10px; */ 
+}
+#checkbtn{
+    float: right;
+    line-height: 80px;
+    margin-right: 170px;
+    font-size: 30px;
+    color: white;
+    display: none;
+}
+#check{
+    display: none;
+}
+#check:checked ~ ul{
+    left: 0;
+}
+
+nav ul li a{
+    /* transition: 3s; */
+}
+label.logo{
+    /* transition: 3s 1s; */
+
+}
+.gallery .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    position: inherit;
+    
+}
+.gallery .box-container .box {
+    /* height: 26rem; */
+    flex: 1 1 20rem;
+    background-color: #ffffff;
+    border: 1px solid #fff;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, .3);
+    border-radius: 0.5rem;
+    position: relative;
+    overflow: hidden;
+    padding-left: 50px;
+    width: 50%;
+    height: 500px;
+}
+.para {
+    width: 100%;
+    height: 1px;
+}
+.gallery .box-container .box #tin1 {
+    background: rgba(3, 128, 245, 0.9);
+}
+.gallery .box-container .box .content {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transition: 0.5s;
+    height: 100%;
+    width: 100%;
+    padding: 2rem;
+    padding-top: 5rem;
+    text-align: center;
+    /* width: 200px;
+    height: 300px; */
+}
+.gallery .box-container .box .content h3 {
+    font-size: 2rem;
+    color: #ffffff;
+    text-align: center;
+}
+.gallery .box-container .box #tin2 {
+    background: rgba(25, 25, 26, 0.9);
+}
+.gallery .box-container .box #tin4 {
+    background: rgba(255, 234, 166, 0.9);
+}
+.gallery .box-container .box #tin5 {
+    background: rgba(31, 76, 117, 0.9);
+}
+.gallery .box-container .box .content {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transition: 0.5s;
+    height: 100%;
+    width: 100%;
+    padding: 2rem;
+    padding-top: 5rem;
+    text-align: center;
+}
+.gallery .box-container .box #tin6 {
+    background: rgba(255, 153, 0, 0.9);
+}
+#tin7 {
+    background: rgba(252, 166, 38, 0.9);
+}
+.gallery .box-container .box #tin8 {
+    background: rgba(250, 51, 61, 0.9);
+}
+.gallery .box-container .box #tin9 {
+    background: rgba(250, 51, 61, 0.9);
+}
+.gallery .box-container .box #tin10 {
+    background: rgba(250, 51, 61, 0.9);
+}
+.gallery .box-container .box #tin11 {
+    background: rgba(250, 51, 61, 0.9);
+}
+.gallery .box-container .box #tin12 {
+    background: rgba(250, 51, 61, 0.9);
+}
+
+
