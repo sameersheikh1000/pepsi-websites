@@ -903,7 +903,7 @@ width: 100px;
         /* margin-left: -20px; */
        }
        .footer{
-        width: 1000px;
+        width: 100%;
         display: inline-block;
         height: 700px;
         background-color: #111;
