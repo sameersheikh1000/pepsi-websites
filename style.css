@@ -174,7 +174,7 @@ label.logo{
     nav{
         width: 100%;
         background-color: rgb(233, 17, 17);
-        height: 60px;
+        /* height: 60px; */
     }
     nav ul{
         width: 100%;
@@ -791,7 +791,7 @@ width: 100px;
             margin-left: 0px;
         }
         .left22 img{
-            margin-left: 390px;
+            /* margin-left: 390px; */
         }
         .above{
             width: 100%;
