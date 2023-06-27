@@ -887,7 +887,7 @@ width: 100px;
             width: 100%;
             height: auto;
             background-color: rgb(216, 132, 21);
-            /* display: inline-block; */
+            display: inline-block;
         }
         .sec5right{
             /* width: 100%; */
