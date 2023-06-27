@@ -1,7 +1,7 @@
 nav{
     /* background-color: rgba(14, 75, 206, 0.315); */
     opacity: 0.5;
-    background-color: rgb(21, 34, 32);
+    background-color: rgb(15, 41, 37);
     position: fixed;
 
     width: 100%;
@@ -62,7 +62,7 @@ nav ul li a:hover{
     line-height: 80px;
     margin-right: 50px;
     font-size: 30px;
-    color: white;
+    color: rgb(161, 29, 29);
     display: none;
 }
 #check{
