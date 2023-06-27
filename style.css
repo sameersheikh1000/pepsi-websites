@@ -818,7 +818,7 @@ width: 100px;
         .nitro{
             width: 100%;
             display: inline-block;
-            background-color: #111;
+            background-color: #1f1212;
             height: 500px;
         }
         .nitroimage{
@@ -854,13 +854,13 @@ width: 100px;
         }
         .word h2{
             font-size: 25px;
-            color:rgb(229, 236, 255);
-            margin-left: -70px;
+            color:rgb(12, 64, 207);
+            margin-left: -40px;
             margin-top: 20px;
         }
         .viewAllProducts{
             width: 30%;
-            margin-left: 280px;
+            /* margin-left: 280px; */
             border: 2px solid rgb(255, 255, 255);
     color: rgb(255, 255, 255);
     border-radius: 40px;
