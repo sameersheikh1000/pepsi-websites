@@ -823,19 +823,21 @@ width: 100px;
         }
         .nitroimage{
             width: 100px;
-            /* margin-left: 220px; */
+            /* margin-left: 80px; */
             /* height: 1000px; */
            
         }
         .sa{
             width: 200px;
             height: 200px;
+        text-align: center;
 
         }
         .ka{
             width: 200px;
             height: 100px;
             margin-top: 30px;
+            text-align: center;
 
         }
         .word{
@@ -851,7 +853,7 @@ width: 100px;
         .word h2{
             font-size: 25px;
             color:rgb(11, 59, 194);
-            margin-left: -150px;
+            margin-left: -70px;
             margin-top: 20px;
         }
         .viewAllProducts{
