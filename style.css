@@ -819,7 +819,7 @@ width: 100px;
             width: 100%;
             display: inline-block;
             background-color: #1f1212;
-            height: 500px;
+            height: 520px;
         }
         .nitroimage{
             width: 100px;
@@ -860,7 +860,7 @@ width: 100px;
         }
         .viewAllProducts{
             width: 30%;
-            margin-left: 280px;
+            margin-left: 140px;
             border: 2px solid rgb(255, 255, 255);
     color: rgb(255, 255, 255);
     border-radius: 40px;
