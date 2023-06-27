@@ -788,7 +788,7 @@ width: 100px;
         .left22{
             /* width: 100%;
             background-color: #110c0c; */
-            margin-left: 0px;
+            margin-left: 70px;
         }
         .left22 img{
             /* margin-left: 390px; */
@@ -855,7 +855,7 @@ width: 100px;
         .word h2{
             font-size: 25px;
             color:rgb(12, 64, 207);
-            margin-left: -40px;
+            margin-left: 0px;
             margin-top: 20px;
         }
         .viewAllProducts{
@@ -869,7 +869,7 @@ width: 100px;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 20px;
-    margin-left: -120px;
+    margin-left: -220px;
     /* padding-left: 20px; */
     /* padding-top: 10px; */
         }
