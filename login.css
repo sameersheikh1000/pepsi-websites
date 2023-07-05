@@ -118,7 +118,7 @@ label.logo{
 
 
 
-@media (max-width:311px){
+@media (max-width:390px){
 label.logo{
     font-size: 18px;
     margin: 0px 50px;
@@ -129,7 +129,7 @@ label.logo{
 
 
 }
-@media (max-width:725px){
+@media (max-width:390px){
     #checkbtn{
        
         display: block;
