@@ -1,22 +1,18 @@
 
 
 
-nav{
-    /* background-color: rgba(14, 75, 206, 0.315); */
-    /* opacity: 0.5; */
-    background-color: rgb(0, 0, 0);
-    position: fixed;
-    position: relative;
-    /* margin-top: 40px; */
-   
-    
 
-    width: 100%;
-height: 80px;
-}
 *{
     margin: 0;
     padding: 0;
+}
+nav{
+    background-color: rgb(0, 0, 0);
+    opacity: 0.5;
+    position: fixed;
+
+    width: 100%;
+height: 80px;
 }
  label.logo{
     font-size: 25px;
@@ -38,25 +34,23 @@ nav ul li {
 }
 nav ul li a{
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: white;
     font-size: 18px;
     font-family: Georgia, Times, 'Times New Roman', serif;
     display: block;
 }
- /* .active:hover{ 
-     background-color: brown; 
+ /* .active{
+    background-color: brown;
     width: 50px;
     height: 50px;
    padding-top: 10px;
 }  */
-/* .active:hover{
-    color: blue;
-} */
+.locol{
+    margin-top: 5px;
+}
 nav ul li a:hover{
-    /* cursor: pointer;
-    color: rgb(27, 99, 6); */
-    cursor: col-resize;
-    color: rgb(36, 58, 187);
+    cursor: pointer;
+    color: red;
     /* background : aqua;
     /* cursor: pointer;
     height: 20px; */
@@ -67,7 +61,7 @@ nav ul li a:hover{
 #checkbtn{
     float: right;
     line-height: 80px;
-    margin-right: 170px;
+    margin-right: 50px;
     font-size: 30px;
     color: white;
     display: none;
@@ -86,15 +80,78 @@ label.logo{
     /* transition: 3s 1s; */
 
 }
+.card{
+    /* transition: 2s; */
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:390px){
+label.logo{
+    font-size: 18px;
+    margin: 0px 50px;
+}
+.locol{
+    /* margin-left: 160px; */
+}
+
+
+}
+@media (max-width:390px){
+    #checkbtn{
+       
+        display: block;
+        /* position: fixed; */
+    }
+    nav ul{
+        width: 100%;
+       height: 100vh;
+       background-color: rgb(22, 11, 17);
+       position:fixed;
+       top: 80px;
+       left: -100%;
+       transition: .5s;
+    }
+    nav ul li{
+        line-height: 50px;
+        margin: 20px;
+    }
+    label.logo{
+        font-size: 20px;
+    }
+
+
+    nav ul li{
+        display: block;
+        text-align: center;
+    }
+
+
+}
+.gallery{
+    width: 100%;
+    background-color: rgb(202, 115, 8);
+    height: auto;
+}
 .gallery .box-container {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
     position: inherit;
+    /* margin-left: 200px; */
+    /* margin-top: 120px; */
+    padding-top: 90px;
     
 }
 .gallery .box-container .box {
     /* height: 26rem; */
+    /* margin-left: 200px; */
     flex: 1 1 20rem;
     background-color: #ffffff;
     border: 1px solid #fff;
@@ -108,10 +165,11 @@ label.logo{
 }
 .para {
     width: 100%;
-    height: 1px;
+    height: 1px;margin-left: 300px;
 }
 .gallery .box-container .box #tin1 {
     background: rgba(3, 128, 245, 0.9);
+    /* margin-left: 140px; */
 }
 .gallery .box-container .box .content {
     position: absolute;
@@ -125,6 +183,7 @@ label.logo{
     text-align: center;
     /* width: 200px;
     height: 300px; */
+    /* margin-left: 300px; */
 }
 .gallery .box-container .box .content h3 {
     font-size: 2rem;
@@ -150,9 +209,11 @@ label.logo{
     padding: 2rem;
     padding-top: 5rem;
     text-align: center;
+    /* margin-left: 200px; */
 }
 .gallery .box-container .box #tin6 {
     background: rgba(255, 153, 0, 0.9);
+    margin-left: 300px;
 }
 #tin7 {
     background: rgba(252, 166, 38, 0.9);
@@ -171,6 +232,42 @@ label.logo{
 }
 .gallery .box-container .box #tin12 {
     background: rgba(250, 51, 61, 0.9);
+}
+@media (max-width:390px){
+
+
+    .gallery{
+        width: 100%;
+        height: auto;
+        background-color: rgb(243, 145, 16);
+    }
+    .gallery .box-container .box .content{
+        /* margin-left: 400px; */
+    }
+    .gallery .box-container {
+        display: inline-block;
+        flex-wrap: nowrap;
+        gap: 2rem;
+        position: inherit ;
+        /* margin-left: 200px; */
+        /* margin-left: 120px; */
+        width: 100%;
+        margin-top: 10px;
+        /* padding-top: -20px; */
+        /* padding: 30px; */
+        /* height: 400px; */
+        /* gap: 30px; */
+        
+    }
+    .gallery .box-container .box{
+        width: 80%;
+        height: 500px;
+        background-color: rgb(115, 133, 133);
+        /* padding-top: 20px; */
+        /* margin: 30px; */
+        margin-top: 20px;
+        margin-left: 15px;
+    }
 }
 
 
