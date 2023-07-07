@@ -62,7 +62,7 @@ nav ul li a:hover{
     line-height: 80px;
     margin-right: 50px;
     font-size: 30px;
-    color: rgb(161, 29, 29);
+    color: rgb(228, 216, 216);
     display: none;
 }
 #check{
@@ -339,9 +339,9 @@ animation-timing-function: linear;
         display: inline-block;
         background-color: balck;
     }
-    /* .sec6right{
+    .sec6right{
         margin-top: 800px;
-    } */
+    }
     .sec6right{
         background-color: rgb(12, 15, 15);
         width: 100%;
