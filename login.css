@@ -133,7 +133,7 @@ label.logo{
     #checkbtn{
        
         display: block;
-        width: 100%;
+        /* width: 100%; */
         /* position: fixed; */
     }
     nav ul{
@@ -374,7 +374,7 @@ animation-timing-function: linear;
     .image{
         width: 300px;
         height: 300px;
-        margin-left: 100px;
+        margin-left: 50px;
 
     }
     .iframe4{
@@ -438,11 +438,11 @@ width: 100px;
     text-align: center;
    }
    .form{
-width: 80%;
+width: 100%;
 
    }
    .form input{
-width: 25%;
+width: 80%;
    }
    }
     
