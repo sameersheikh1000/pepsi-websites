@@ -190,7 +190,7 @@ background-color: blue;
     font-size: larger;
     border-radius: 30px;
 /* text-align: center; */
-margin-left: 40px;
+margin-left: 15px;
 
   }
   .signInUp{
@@ -201,7 +201,7 @@ margin-left: 40px;
     width: 65%;
     margin-left: 30px;
   }
-  .formImg img{
+  .formImg{
     margin-left: -20px;
   }
 }
