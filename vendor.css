@@ -340,14 +340,14 @@ animation-timing-function: linear;
         background-color: balck;
     }
     .sec6right{
-        margin-top: 800px;
+        /* margin-top: 800px; */
     }
     .sec6right{
         background-color: rgb(12, 15, 15);
         width: 100%;
-        height: 500px;
+        height: 600px;
         /* margin-left: -250px; */
-        margin-top: -50px;
+        /* margin-top: -150px; */
         /* margin-left: -20px; */
         /* margin-left: -100px; */
     }
