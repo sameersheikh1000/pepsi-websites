@@ -239,7 +239,7 @@ label.logo{
     .gallery{
         width: 100%;
         height: auto;
-        background-color: rgb(243, 145, 16);
+        background-color: rgb(10, 9, 8);
     }
     .gallery .box-container .box .content{
         /* margin-left: 400px; */
