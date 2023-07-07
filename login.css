@@ -133,6 +133,7 @@ label.logo{
     #checkbtn{
        
         display: block;
+        width: 100%;
         /* position: fixed; */
     }
     nav ul{
