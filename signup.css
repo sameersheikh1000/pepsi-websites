@@ -195,4 +195,7 @@ background-color: blue;
     margin-left: -20px;
 
   }
+  .inputmain input{
+    width: 65%;
+  }
 }
