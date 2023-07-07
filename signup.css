@@ -169,6 +169,7 @@ background-color: blue;
 
   .input {
     /* width: ; */
+    width: 80%;
     height: 50px;
     margin: 10px 0px;
     /* border: none; */
