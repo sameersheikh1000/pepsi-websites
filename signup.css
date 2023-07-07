@@ -189,7 +189,8 @@ background-color: blue;
     /* padding-left: 10%; */
     font-size: larger;
     border-radius: 30px;
-text-align: center;
+/* text-align: center; */
+margin-left: 50px;
 
   }
   .signInUp{
